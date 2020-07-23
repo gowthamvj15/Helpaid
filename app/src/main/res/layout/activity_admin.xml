@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_bg"
+    android:orientation="vertical"
+    tools:context=".Admin">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:text="WELCOME ADMIN"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:id="@+id/lawtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Title of the law"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:padding="20dp"
+        android:fontFamily="sans-serif-condensed-light"
+        />
+
+    <EditText
+        android:id="@+id/law_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description of the law"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:padding="20dp"
+        android:fontFamily="sans-serif-condensed-light"
+        />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        android:text="ADD LAW"
+        android:textColor="#000000"
+        android:fontFamily="sans-serif-condensed-light"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/view_laws"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textStyle="bold"
+            android:text="VIEW LAWS"
+            android:textSize="20dp"/>
+
+        <Button
+            android:id="@+id/view_queries"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed-light"
+            android:text="VIEW QUERIES"/>
+
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:textSize="20dp"
+            android:textStyle="normal"
+            android:fontFamily="sans-serif-condensed-light"
+            android:text="LOGOUT"/>
+
+    </LinearLayout>
+</LinearLayout>

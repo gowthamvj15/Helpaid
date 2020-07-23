@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_bg"
+    tools:context=".Home">
+
+
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textColor="#000000"
+        android:fontFamily="sans-serif-condensed"
+        android:text="WELCOME"
+        android:textAlignment="center"
+        android:padding="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/view_laws"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:padding="10dp"
+        android:text="ViEW LAWS"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:id="@+id/add_query"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:inputType="textMultiLine"
+        android:hint="ADD YOUR QUERY"
+        android:fontFamily="sans-serif-condensed"
+        android:textAlignment="center"/>
+    <Button
+        android:id="@+id/query"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:padding="10dp"
+        android:text="ADD QUERY"
+        android:textColor="#000000"/>
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:padding="10dp"
+        android:text="LOGOUT"
+        android:textColor="#000000"/>
+
+
+</LinearLayout>

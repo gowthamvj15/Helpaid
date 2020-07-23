@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/linear"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LAW TITLE"
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:layout_marginTop="40dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/law_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:text="LAW DESCRIPTION"
+        android:padding="15dp"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-condensed-light"
+        android:textStyle="bold"/>
+
+</LinearLayout>
